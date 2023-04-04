@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="calculator">
+            <h1>The Best Car</h1>
+            <hr>
+            <label for="bill-amount">Bill Amount</label>
+            <input type="text" name="bill-amount" id="bill-amount">
+            <br>
+
+            <p>The select element defines a drop-down list:</p>
+
+            <label for="tip">Choose tip percentage</label>
+            <select name="tip" id="tip-percent">
+                <option value="10">10%</option>
+                <option value="12">12%</option>
+                <option value="15">15%</option>
+                <option value="18">18%</option>
+                <option value="20">20%</option>
+            </select>
+
+            <button id="myBtn">Calculate</button> 
+            <br>
+            <h4>Result (including 7% tax): $<span id="result"></span>
+            </h4>
+            
+            
+
+            <!-- 
+                Step 1: Create a text input
+                Step 2: Call for a prompt to ask user for bill subtotal
+                Step 3: Create a button to calculate the tip and taxes
+            
+            
+            -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
